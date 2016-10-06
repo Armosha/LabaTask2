@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
         BookSort isbnnumber = new BookSort();
-        isbnnumber.getBook();
+        isbnnumber.getListofBook();
         isbnnumber.sortListIsbn();
     }
 }

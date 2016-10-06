@@ -10,6 +10,7 @@ public class AuthorComparator implements Comparator<Books> {
 
     @Override
     public int compare(Books ob1, Books ob2) {
+
         return ob1.getAuthor().compareToIgnoreCase(ob2.getAuthor());
     }
 }

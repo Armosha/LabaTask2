@@ -5,13 +5,20 @@ package Task12Comparator;
  */
 public class Main {
     public static void main(String[] args) {
-        BooksSort b = new BooksSort();
-        b.putBooks();
-        b.sortBooksTitle();
-        b.sortBooksAuthor();
-        b.sortAuthorTitle();
-        b.sortTitleAuthor();
-        b.sortBooksAuthorTitlePrice();
-        b.sortPrice();
+
+        SortBookTwoField a = new SortBookTwoField();
+        SortBooksAllField b = new SortBooksAllField();
+        SortBooksOneField c = new SortBooksOneField();
+
+        a.getBooksForAuthorTitle();
+        a.getBooksForTitleAuthor();
+        a.sortAuthorTitle();
+        a.sortTitleAuthor();
+
+        b.getBooksForTotalSort();
+        b.sortAuthorTitlePrice();
+
+        c.getBooksForTitleSort();
+        c.sortTitle();
     }
 }

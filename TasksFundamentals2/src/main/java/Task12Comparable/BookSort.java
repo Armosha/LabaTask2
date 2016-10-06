@@ -11,7 +11,7 @@ public class BookSort {
 
     List<BookIsbn> list = new ArrayList<BookIsbn>();
 
-    public List<BookIsbn> getBook() {
+    public List<BookIsbn> getListofBook() {
         list.add(new BookIsbn(1, 45, "Brawn", "Da Vinci Code"));
         list.add(new BookIsbn(45, 34, "Jerome K. Jerome", "Three mens in the boat"));
         list.add(new BookIsbn(3, 45, "Jerom", "Three mens in the boat"));
